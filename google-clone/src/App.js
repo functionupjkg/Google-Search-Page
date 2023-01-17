@@ -7,12 +7,14 @@ import './App.css'
 import Home from "./components/Home"
 import Search from "./components/Search"
 
+
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/search" exact component={Search} />
+       
       </Switch>
     </Router>
   )
